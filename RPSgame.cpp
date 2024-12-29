@@ -19,7 +19,6 @@ int getComputerChoice() {
     return rand() % 3 + 1; // Random choice between 1 and 3
 }
 
-// Function to determine the winner of a round
 // Returns 1 if the user wins, -1 if the computer wins, and 0 for a tie
 int determineWinner(int userChoice, int computerChoice) {
     if (userChoice == computerChoice) {
